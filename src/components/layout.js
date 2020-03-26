@@ -1,14 +1,8 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
 
+import { Container, Jumbotron } from 'react-bootstrap';
 import Header from './header';
 import './layout.css';
 
@@ -26,6 +20,26 @@ const Layout = ({ children }) => {
     return (
         <>
             <Header siteTitle={data.site.siteMetadata.title} />
+            <Jumbotron
+                fluid
+                className="d-flex flex-column flex-md-row align-content-end p-0"
+            >
+                <Container style={{
+                        background: `pink`,
+                    }} className="py-5">
+                    <h2>Hello, I'm</h2>
+                    <h1>Hiba Mansoor.</h1>
+                    <p>Front-end Engineer & Aspiring Product Manager</p>
+                </Container>
+                <Container
+                    style={{
+                        maxWidth: `100px`,
+                        background: `lightblue`,
+                    }}
+                >
+                    hello
+                </Container>
+            </Jumbotron>
             <div
                 style={{
                     margin: `0 auto`,
