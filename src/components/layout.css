@@ -1,11 +1,16 @@
 :root {
   --main-text-color: #F0EBF4;
+  --blue: #A1C3D1;
+  --purple: #B39BC8;
+  --pink: #F172A1;
+  --hot-pink: #E64398;
 }
 
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -101,7 +106,12 @@ h2 {
   font-size: 1.62671rem;
   line-height: 1.1;
 }
-h3 {
+
+.h3-regular {
+  font-weight: 400 !important;
+}
+
+h3, .h3-regular {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -116,6 +126,7 @@ h3 {
   font-size: 1.38316rem;
   line-height: 1.1;
 }
+
 h4 {
   margin-left: 0;
   margin-right: 0;
@@ -198,13 +209,14 @@ ol {
 p {
   margin-left: 0;
   margin-right: 0;
-  margin-top: 0;
+  margin-top: 0.01rem;
+  margin-bottom: 0.01rem;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
 }
+
 blockquote {
   margin-left: 1.45rem;
   margin-right: 1.45rem;
@@ -248,4 +260,32 @@ strong {
   html {
     font-size: 100%;
   }
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.bg-purple {
+  background-color: var(--purple);
+}
+
+.bg-pink {
+  background-color: var(--pink);
+}
+
+.bg-hot-pink {
+  background-color: var(--hot-pink);
+}
+
+.icon-link {
+  color: inherit;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+  font-size: 1.62671rem;
+  line-height: 1.1;
+}
+
+.icon-link:hover {
+  color: inherit;
 }
