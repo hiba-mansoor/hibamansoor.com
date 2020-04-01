@@ -37,11 +37,6 @@ strong {
     font-weight: bolder;
 }
 
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-}
-
 small {
     font-size: 80%;
 }
@@ -143,73 +138,6 @@ h4 {
     font-size: 1rem;
     line-height: 1.1;
 }
-h5 {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    margin-bottom: 1.45rem;
-    color: inherit;
-    font-weight: bold;
-    text-rendering: optimizeLegibility;
-    font-size: 0.85028rem;
-    line-height: 1.1;
-}
-h6 {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    margin-bottom: 1.45rem;
-    color: inherit;
-    font-weight: bold;
-    text-rendering: optimizeLegibility;
-    font-size: 0.78405rem;
-    line-height: 1.1;
-}
-
-hgroup {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    margin-bottom: 1.45rem;
-}
-
-ul {
-    margin-left: 1.45rem;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    margin-bottom: 1.45rem;
-    list-style-position: outside;
-    list-style-image: none;
-}
-
-ol {
-    margin-left: 1.45rem;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    margin-bottom: 1.45rem;
-    list-style-position: outside;
-    list-style-image: none;
-}
 
 p {
     margin-left: 0;
@@ -222,16 +150,6 @@ p {
     padding-top: 0;
 }
 
-blockquote {
-    margin-left: 1.45rem;
-    margin-right: 1.45rem;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    margin-bottom: 1.45rem;
-}
 form {
     margin-left: 0;
     margin-right: 0;
@@ -242,6 +160,7 @@ form {
     padding-top: 0;
     margin-bottom: 1.45rem;
 }
+
 hr {
     margin-left: 0;
     margin-right: 0;
@@ -296,6 +215,11 @@ strong {
     color: var(--purple) !important;
 }
 
+.nav-link {
+    color: var(--white) !important;
+    font-family: inherit;
+}
+
 .icon-link {
     color: inherit;
     font-weight: bold;
@@ -306,9 +230,4 @@ strong {
   
   .icon-link:hover {
     color: inherit;
-  }
-
-  .nav-link {
-      color: var(--white) !important;
-      font-family: inherit;
   }

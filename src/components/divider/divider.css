@@ -1,9 +1,10 @@
 .divider-line-horizontal {
-    border-top: 0.05rem solid lightgrey;
+    border-top: .05rem solid var(--blue);
+    background: var(--blue);
 }
 
 .divider-line-vertical {
-    border-left: 0.116rem solid lightgrey;
+    border-left: 0.116rem solid var(--blue);
 }
 
 .divider-circle {
