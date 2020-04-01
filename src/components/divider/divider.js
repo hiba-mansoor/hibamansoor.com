@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { FaCircle } from 'react-icons/fa';
 import './divider.css';
 
-const Divider = ({ type, className = ''}) => {
+const Divider = ({ type, className = '' }) => {
     return type === 'circle' ? (
         <FaCircle className={`divider-circle ${className}`} />
     ) : type === 'vertical' ? (
@@ -12,7 +12,9 @@ const Divider = ({ type, className = ''}) => {
         />
     ) : (
         type === 'horizontal' && (
-            <hr className={`divider-line-horizontal d-block d-md-none ${className}`} />
+            <hr
+                className={`divider-line-horizontal d-block d-md-none ${className}`}
+            />
         )
     );
 };

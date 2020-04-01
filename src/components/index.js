@@ -8,4 +8,3 @@ export * from './jumbotrons/contributions';
 export * from './jumbotrons/resume';
 export * from './layout/layout';
 export * from './seo/seo';
-
