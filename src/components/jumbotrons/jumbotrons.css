@@ -1,0 +1,49 @@
+/* banner styles */
+.banner-info-container {
+    max-width: 16rem;
+}
+
+.banner-background {
+    background-image: url('../../images/banner-background.png');
+    min-height: 28rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-photo {
+    max-width: 9rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-background {
+        min-height: none;
+    }
+    .banner-info-container {
+        max-width: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .banner-large-text {
+        font-size: 6rem;
+    }
+    .banner-medium-text {
+        font-size: 3rem;
+    }
+    .banner-small-text {
+        font-size: 2rem;
+    }
+}
+
+/* resume styles */
+.resume-heading-text {
+    width: 25%;
+}
+
+@media only screen and (max-width: 992px) {
+    .resume-heading-text {
+        width: 100%;
+    }
+}
