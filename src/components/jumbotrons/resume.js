@@ -22,7 +22,7 @@ const ResumeItem = ({
             <p className="ml-2 ml-lg-0">{dates}</p>
         </div>
         <Divider type="vertical" />
-        <div className="d-flex flex-column w-75">
+        <div className="d-flex flex-column w-100">
             <h3 className="mb-1">{title}</h3>
             {secondTitle && <h3 className="mb-1">{secondTitle}</h3>}
             {subtitle && (
