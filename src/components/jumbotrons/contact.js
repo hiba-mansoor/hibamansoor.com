@@ -17,18 +17,6 @@ export const Contact = () => (
                     method="GET"
                     target="_blank"
                 >
-                    {/* <div className="d-flex flex-row">
-                            <Form.Group controlId="contactName">
-                                <Form.Control type="text" placeholder="Name" name="name" id="name" />
-                            </Form.Group>
-                            <Form.Group controlId="contactEmail">
-                                <Form.Control
-                                    type="email"
-                                    placeholder="Email"
-                                    name="email" id="email"
-                                />
-                            </Form.Group>
-                        </div> */}
                     <Form.Group controlId="contactSubject">
                         <Form.Control
                             type="text"
