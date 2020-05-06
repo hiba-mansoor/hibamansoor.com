@@ -6,7 +6,7 @@
   Hiba Mansoor's Personal Website
 </h1>
 
-This is the source code to my personal website, built using [Gatsby](https://www.gatsbyjs.org/) and [Bootstrap](https://getbootstrap.com/2.3.2/index.html/).
+This is the source code to my personal website, primarily built using [Gatsby](https://www.gatsbyjs.org/) and [React Bootstrap](https://react-bootstrap.github.io/).
 
 ## License
 This project is licensed under the GNU General Public License.
