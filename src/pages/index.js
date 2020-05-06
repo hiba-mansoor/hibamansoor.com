@@ -11,7 +11,7 @@ import {
 
 const IndexPage = () => (
     <Layout>
-        <SEO title="Software Engineer" />
+        <SEO title="Aspiring Product Manager" />
         <Banner />
         <About />
         <Resume />
