@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Jumbotron } from 'react-bootstrap';
 import Divider from '../divider/divider';
-import { FaLinkedin, FaTwitter, FaGithub, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
 
 export const Contact = () => (
     <Jumbotron className="bg-light-blue mb-0" id="contact">
@@ -14,7 +14,7 @@ export const Contact = () => (
                 <Divider type="horizontal" />
                 <div className="text-purple d-flex flex-column justify-content-center align-items-center text-center w-100">
                     <h2>Hiba Mansoor</h2>
-                    <h3>Front-end Engineer & Aspiring Product Manager</h3>
+                    <h3>Technical Business Analyst & Aspiring Product Manager</h3>
                     <div className="d-flex flex-row">
                         <a
                             className="icon-link mr-2"
@@ -33,15 +33,6 @@ export const Contact = () => (
                             alt="twitter-link"
                         >
                             <FaTwitter />
-                        </a>
-                        <a
-                            className="icon-link mx-2"
-                            href="https://github.com/hiba-mansoor"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            alt="github-link"
-                        >
-                            <FaGithub />
                         </a>
                         <a
                             className="icon-link ml-2"

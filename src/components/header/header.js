@@ -3,13 +3,13 @@ import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 
 const Header = ({ siteTitle }) => (
-    <Navbar expand="lg" className="bg-blue">
-        <Navbar.Brand href="/" className="text-white">
+    <Navbar expand="lg" className="bg-white">
+        <Navbar.Brand href="/" className="text-blue">
             {siteTitle}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto">
+            <Nav className="ml-auto text-light-blue">
                 <a href="#about" className="nav-link">
                     About
                 </a>

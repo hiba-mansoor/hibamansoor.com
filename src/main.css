@@ -207,6 +207,14 @@ strong {
     background-color: var(--purple);
 }
 
+.text-blue {
+    color: var(--blue) !important;
+}
+
+.text-light-blue {
+    color: var(--light-blue) !important;
+}
+
 .text-white {
     color: var(--white) !important;
 }
@@ -216,7 +224,7 @@ strong {
 }
 
 .nav-link {
-    color: var(--white) !important;
+    color: var(--blue) !important;
     font-family: inherit;
 }
 

@@ -80,30 +80,36 @@ export const Resume = () => (
             <div className="d-flex flex-column">
                 <h2 className="text-purple mb-2">Professional</h2>
                 <div className="d-flex flex-column w-100">
+                <ResumeItem
+                        heading="Levvel"
+                        dates="2020 - Present"
+                        title="Technical Business Analyst"
+                        description="As a Technical Business Analyst at Levvel, I work across multiple teams to create technical and business requirements. I frequently lead discovery sessions, Agile ceremonies, and user story generation. Most of my work in this role has focused on automation in transportation and logistics."
+                    />
                     <ResumeItem
                         heading="Levvel"
-                        dates="2018 - Present"
-                        title="Engineering Consultant"
-                        secondTitle="Associate Engineering Consultant"
-                        description="At Levvel, I utilize front-end frameworks like React and React Native to build web applications for institutional clients. I frequently work with Agile development teams and aid in creating technical requirements. I'm also an Event Coordinator for our company's Women in Technology ERG."
+                        dates="2018 - 2020"
+                        title="Software Engineering Consultant"
+                        secondTitle="Associate Software Engineering Consultant"
+                        description="As a software engineer, I utilized frontend frameworks like React and React Native to build web and mobile applications for institutional clients. I frequently worked with Agile development teams and aided in creating technical requirements. I was also an Event Coordinator for our company's Women in Technology ERG."
                     />
                     <ResumeItem
                         heading="Scotiabank"
                         dates="2017"
                         title="Global Banking and Markets Summer Intern"
-                        description="Through this internship I rotated through three desks in Global Banking and Markets: Prime Services, Equity Sales & Trading, and Global Loan Syndications."
+                        description="My internship at Scotiabank allowed me to rotate through three desks in Global Banking and Markets: Prime Services, Equity Sales & Trading, and Global Loan Syndications. During my time at Scotiabank, I augmented my knowledge on the financial services industry and began ideating solutions to antiquated processes. My most notable achievement from this internship was the development of a Post Trade Cost Analysis generator."
                     />
                     <ResumeItem
                         heading="Zipcar"
                         dates="2017"
                         title="Campus Ambassador"
-                        description="As a Zipcar Campus Ambassador, I utilized social media marketing campaigns to increase brand awareness and student memberships."
+                        description="As a Zipcar Campus Ambassador, I utilized a variety of marketing techniques to increase brand awareness and student memberships. I was able to acquire dozens of new memberships through social media marketing campaigns, market analysis, and targeted events."
                     />
                     <ResumeItem
                         heading="Startupbootcamp Fintech"
                         dates="2016"
                         title="Marketing Fellow"
-                        description="At Startupbootcamp Fintech I increased the brand's awareness in the domestic market by crafting social media campaigns and planning company-sponsored events like hackathons and a demo day."
+                        description="At Startupbootcamp Fintech, I increased the brand awareness in the domestic market by crafting social media campaigns and planning company-sponsored events. The events I helped planned included hackathons and a demo day. I was frequently tasked with putting together engaging events with a limited timeline and budget."
                     />
                 </div>
             </div>

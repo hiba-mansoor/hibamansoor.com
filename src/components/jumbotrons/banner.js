@@ -1,6 +1,6 @@
 import React from 'react';
 import { Image, Container, Jumbotron } from 'react-bootstrap';
-import { FaLinkedin, FaTwitter, FaGithub, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
 import './jumbotrons.css';
 
 export const Banner = () => (
@@ -12,7 +12,7 @@ export const Banner = () => (
             <h2 className="banner-medium-text">Hello, I'm</h2>
             <h1 className="banner-large-text">Hiba Mansoor.</h1>
             <p className="banner-small-text">
-                Front-end Engineer & Aspiring Product Manager
+                Technical Business Analyst & Aspiring Product Manager
             </p>
         </Container>
         <Container className="banner-info-container bg-blue d-flex flex-column align-items-center justify-content-center py-4">
@@ -23,9 +23,8 @@ export const Banner = () => (
                 roundedCircle
                 fluid
             />
-            <h2 className="mb-1">Hiba Mansoor</h2>
-            <p>BA in Computer Science</p>
-            <p>New York, NY</p>
+            <h2 className="mb-1 text-center">Hiba Mansoor</h2>
+            <p className="text-center">New York, NY</p>
             <div className="d-flex flex-row pt-1 pt-md-4">
                 <a
                     className="icon-link mx-2"
@@ -44,15 +43,6 @@ export const Banner = () => (
                     alt="twitter-link"
                 >
                     <FaTwitter />
-                </a>
-                <a
-                    className="icon-link mx-2"
-                    href="https://github.com/hiba-mansoor"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    alt="github-link"
-                >
-                    <FaGithub />
                 </a>
                 <a
                     className="icon-link mx-2"
