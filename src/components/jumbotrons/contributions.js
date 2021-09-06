@@ -18,11 +18,18 @@ export const Contributions = () => (
     <Jumbotron fluid className="bg-mint mb-0" id="contributions">
         <Container>
             <h1 className="text-purple">
-                <i>Contributions</i>
+                <i>Selected Contributions</i>
             </h1>
             <div className="d-flex flex-column flex-lg-row">
                 <div className="d-flex flex-column w-100 pb-3">
                     <h2 className="text-purple mb-2">Blog Posts</h2>
+                    <ContributionItem
+                        href="https://www.linkedin.com/posts/hibamansoor_womenshistorymonth-womeninleadership-womenintechnology-activity-6516795470847840256-kbvT"
+                        linkText="Women in Leadership: Expanding Influence and Inspiring
+                        Change"
+                        date="March 2019"
+                        alt="women-in-leadership-recap"
+                    />
                     <ContributionItem
                         href="https://www.levvel.io/resource-library/apollo-day-new-york-city-recap-2019"
                         alt="apollo-day-blog-post"
@@ -36,20 +43,7 @@ export const Contributions = () => (
                         date="June 2016"
                     />
                 </div>
-                <div className="d-flex flex-column w-100">
-                    <h2 className="text-purple mb-2">Events Organized</h2>
-                    <ContributionItem
-                        linkText="Levvel x Women Who Code: Career Planning Roundtables"
-                        date="May 2020"
-                    />
-                    <ContributionItem
-                        href="https://www.linkedin.com/posts/hibamansoor_womenshistorymonth-womeninleadership-womenintechnology-activity-6516795470847840256-kbvT"
-                        linkText="Women in Leadership: Expanding Influence and Inspiring
-                        Change"
-                        date="March 2019"
-                        alt="women-in-leadership-recap"
-                    />
-                </div>
+                
             </div>
         </Container>
     </Jumbotron>

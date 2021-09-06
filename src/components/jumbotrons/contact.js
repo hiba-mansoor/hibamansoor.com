@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Jumbotron } from 'react-bootstrap';
 import Divider from '../divider/divider';
-import { FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 export const Contact = () => (
     <Jumbotron className="bg-light-blue mb-0" id="contact">
@@ -25,15 +25,7 @@ export const Contact = () => (
                         >
                             <FaLinkedin />
                         </a>
-                        <a
-                            className="icon-link mx-2"
-                            href="https://twitter.com/hibamnsr"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            alt="twitter-link"
-                        >
-                            <FaTwitter />
-                        </a>
+
                         <a
                             className="icon-link ml-2"
                             href="mailto:hiba@hibamansoor.com"

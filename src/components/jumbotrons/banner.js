@@ -1,6 +1,6 @@
 import React from 'react';
 import { Image, Container, Jumbotron } from 'react-bootstrap';
-import { FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import './jumbotrons.css';
 
 export const Banner = () => (
@@ -35,15 +35,7 @@ export const Banner = () => (
                 >
                     <FaLinkedin />
                 </a>
-                <a
-                    className="icon-link mx-2"
-                    href="https://twitter.com/hibamnsr"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    alt="twitter-link"
-                >
-                    <FaTwitter />
-                </a>
+                
                 <a
                     className="icon-link mx-2"
                     href="mailto:hiba@hibamansoor.com"

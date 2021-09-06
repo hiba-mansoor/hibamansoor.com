@@ -91,7 +91,7 @@ export const Resume = () => (
                         dates="2018 - 2020"
                         title="Software Engineering Consultant"
                         secondTitle="Associate Software Engineering Consultant"
-                        description="As a software engineer, I utilized frontend frameworks like React and React Native to build web and mobile applications for institutional clients. I frequently worked with Agile development teams and aided in creating technical requirements. I was also an Event Coordinator for our company's Women in Technology ERG."
+                        description="As a software engineer, I utilized frontend frameworks like React and React Native to build web and mobile applications for institutional clients. I frequently worked with Agile development teams and aided in creating technical requirements. I also began my role as an Event Coordinator for our company's Women in Technology ERG."
                     />
                     <ResumeItem
                         heading="Scotiabank"
